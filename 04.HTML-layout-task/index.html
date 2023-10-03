@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        border: 1px solid red;
+      }
+      #section1 {
+        margin-top: 3px;
+        padding: 20px;
+        border: 1px solid blue;
+      }
+      #FormSection1{
+        margin-top: 3px;
+        padding: 10px;
+        border: 1px solid purple;
+      }
+      #FormSection2 {
+        margin-top: 3px;
+        padding: 10px;
+        border: 1px solid purple;
+      }
+      table , td{
+        border: 1px solid blue;
+      }
+      #Footer{
+        margin-top: 3px;
+        padding: 10px;
+        border: 1px solid yellow;
+      }
+      th{
+        padding-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>This is a Header</h1>
+      <nav>
+        <ul type="none">
+          <li>
+            <a href="#section1">sec 1</a>
+          </li>
+          <li>
+            <a href="">sec 1</a>
+          </li>
+          <li>
+            <a href="">sec 1</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="section1">
+      <h2>Section 1</h2>
+      <h4>Web Browers</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+        consequatur obcaecati accusamus beatae doloribus molestias voluptas
+        magni reiciendis sed laboriosam et ipsa impedit eligendi cumque
+        expedita, blanditiis praesentium ipsum repellendus?
+      </p>
+      <h3>Google Chorme</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisisectetur aspernatur ex
+        fugiat, cupiditate perspiciatis aperiam quia deserunt assumenda
+        temporibus sapiente corrupti ea aliquam iste itaque incidunt, fuga amet
+        eius nobis explicabo. Facere, neque assumenda?
+      </p>
+      <h4>Article</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nostrum
+        facere laboriosam libero numquam accusantium ex quod nulla, autem nam
+        ratione. Dolores voluptate odit numquam voluptas, laboriosam consectetur
+        quia praesentium. Voluptatem aliquid unde molestias obcaecati dolorum
+        placeat doloribus labore. Tenetur eum ab aliquid doloremque molestias
+        placeat dolores debitis deleniti consequatur. Molestias ipsam, et libero
+        porro commodi animi fugiat sit
+      </p>
+      <h4>Mozilla Firebox</h4>
+      <p>Lorem, ipsum dolor.</p>
+    </section>
+    <section id="FormSection1">
+        <h1>Form Section 1</h1>
+      <label for="Name">Name:</label>
+      <input type="text" name="Name" id="Name" /> <br />
+      <label for="Gender">Gender</label>
+      <input type="radio" name="Male" id="Male" />
+      <label for="Male">Male</label>
+      <input type="radio" name="" id="Female" />
+      <label for="Female">Female</label> <br />
+      <label for="Pets">Pets</label>
+      <select name="" id="city">
+        <option value="city">city</option>
+        <option value="Ganja">Ganja</option>
+        <option value="Baku">Baku</option>
+        <option value="Qaxh">Qaxh</option>
+      </select>
+      <button type="submit">submit</button>
+    </section>
+    <section id="FormSection2">
+        <h2> Form Section 2</h2>
+        <table>
+            <thead>
+                <tr>
+                   <th> First Name</th>
+                   <th> Last Name</th>
+                   <th> Email Address</th>
+                </tr>
+                <tr>
+                    <td>Hillary</td>
+                    <td>Nyakundi</td>
+                    <td>tables@mail.com</td>
+                </tr>
+               <tr>
+                <td>Lary</td>
+                <td>mak</td>
+                <td>developer@mail.com</td>
+               </tr>
+            </thead>
+        </table>
+               <table> 
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Hillary</td>
+                        <td>Advanced Web</td>
+                        <td>75</td>
+                    </tr>
+                    <tr>
+                         <td>Operati8ng Systeam</td>
+                         <td>60</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Lary</td>
+                        <td>Advanced Name</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Operati8ng Systeam</td>
+                         <td>70</td>
+                    </tr>
+                   <tfoot>
+                    <tr>
+                        <td colspan="3">Total</td>
+                    </tr>
+                  
+                   </tfoot>
+                
+               </table>
+    </section>
+    <footer id="Footer">
+        <h1>Footer</h1>
+        <p>Lorem, ipsum.</p>
+    </footer>
+  </body>
+</html>
