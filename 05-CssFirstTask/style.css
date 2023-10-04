@@ -1,26 +1,19 @@
-*{
-    padding: 3px;
-    margin: 5px;
-    box-sizing: 0;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-#header{
-    background-image:url("./protagonistas-harry-potter.webp");
-    background-repeat: no-repeat;
-    
+
+#header {
+  background-image: url("./protagonistas-harry-potter.webp");
+  background-repeat: no-repeat;
+  padding: 32px;
 }
-   #header{
-    background-color: bisque;
-   }
-   #header1{
-    background-color: bisque;
-   }
-   #header2{
-    background-color: bisque;
-   }
-   #header3{
-    background-color: rgb(196, 200, 255);
-   }
-   #header4{
-    background-color: rgb(21, 48, 66);
-    
-    }
+
+.container {
+    background-color: green;
+    color: red;
+}
+.boxHead {
+    color: blue;
+}
