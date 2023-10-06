@@ -1,0 +1,63 @@
+.text{
+    font-family: 'Roboto Mono', monospace;
+    color: red;
+    font-size:50px;
+   
+}
+.text1{
+    font-family:  'Martian Mono', monospace;
+color: blueviolet;
+text-decoration: underline;
+text-shadow: 5px rgb(207, 102, 90);
+}
+.text3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.text4{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ color:aqua;
+ letter-spacing: 2px;
+}
+.text5{
+  font-family: 'Martian Mono', monos ;
+text-decoration: overline;
+color: brown;
+}
+.text6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px sandybrown;
+    color: rgb(110, 38, 204);
+}
+.text7{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(226, 214, 43);
+     font-size: 40px;
+     text-shadow: 2px 2px rgb(44, 28, 5);
+} 
+.text8{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.text9{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(0, 119, 255);
+  letter-spacing: 3px;
+}
+.text10{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(158, 11, 11);
+  text-shadow: 3px 1px rgb(0, 119, 255);
+}
+.text11{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-decoration: overline;
+  color: aqua;
+}
+.text12{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(73, 49, 20); 
+ 
+}
