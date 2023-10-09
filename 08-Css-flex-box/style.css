@@ -1,0 +1,36 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .heading{
+    background-color: black;
+    width: 100%;
+    border: 2px solid;
+    height: 30px;
+}
+.box{
+    background-color: rgb(12, 121, 121);
+    border: 1px solid;
+   width: 30%;
+   height: 150px;
+   margin: 10px;
+   padding: 40px;
+   border-radius: 4%;
+   
+}
+.flexDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+footer {
+  height: 5vh;
+  background-color: rgb(207, 110, 158);
+  margin: 0 3rem;
+  border-radius: 10px;
+}
