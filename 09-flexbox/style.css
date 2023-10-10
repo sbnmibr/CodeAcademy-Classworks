@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+  
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    column-gap: 20%;
+    background-color: rgb(203, 209, 209);
+}
+
+.boxForm {
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    width: 40%;
+    
+}
+
+.formClass {
+    padding: 15px;
+}
+
+.btnDiv button {
+    width: 100%;
+    background-color: green;
+}
+
+.input{
+    width: 100%;
+}
+
+#textarea {
+    width: 100%;
+}
+
