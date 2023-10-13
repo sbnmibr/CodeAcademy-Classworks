@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+   
+}  
+.container{
+    width: 300vh;
+    position: relative;  
+}
+body{
+  height: 300vh;
+}
+.aBox{
+    
+    background-color: black;
+    border: 2px solid black;
+    color: rgb(34, 185, 135);
+    position: sticky;
+    left: 100%;
+    top: 0;
+    
+}

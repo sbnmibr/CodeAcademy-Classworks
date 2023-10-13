@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container{
+    height: 300vh;
+}
+.image {
+  background-image: url("./free-photo-of-duvar-yapraklar-antik-golge.jpeg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+header nav ul {
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    
+}
+header nav ul li{
+    color: green;
+}
+.end{
+background-color: rgb(19, 104, 76);
+height: 300vh;
+padding: 70px;
+
+}
+.box{
+    background-color: rgb(85, 145, 125);
+    height: 40vh;
+    width: 70px;
+    padding: 50px;
+}
+.title{
+    position: sticky;
+    top: 0;
+}
