@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.boxes {
+  border: 2px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.boxes .box {
+  width: 300px;
+  height: 200px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 2s;
+  animation:rotate 2s infinite;
+}
+.box:nth-child(1) {
+  background-color: brown;
+}
+.box:nth-child(1).box:hover {
+  background-color: brown;
+  transform: scale(1.5);
+}
+.box:nth-child(2) {
+  background-color: rgb(46, 165, 42);
+}
+
+.box:nth-child(2):hover {
+  background-color: rgb(46, 165, 42);
+  transform: translate(50%, -100%);
+}
+.box:nth-child(3) {
+  background-color: rgb(29, 26, 211);
+}
+.box:nth-child(3):hover {
+  background-color: rgb(38, 36, 161);
+  transform: rotateY(360deg);
+}
+.box:nth-child(4) {
+  background-color: rgb(231, 163, 37);
+
+}
+.box:nth-child(4):hover {
+    background-color: rgb(231, 163, 37);
+    transform: skew(20deg);
+  }
+.box h1 {
+  display: none;
+}
+.box:hover h1 {
+  display: inline;
+}
+.box:hover p {
+  display: none;
+}
+.box:nth-child(5){
+    background-color: blueviolet;
+
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    }
