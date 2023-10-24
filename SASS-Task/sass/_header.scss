@@ -1,0 +1,29 @@
+header {
+    background-color: #202122;
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        .header {
+            @include flexbox(space-between, center);
+            padding: 0 5%;
+            h3 {
+                font-size: 20px;
+                color: blue;
+            }
+            nav {
+
+                ul {
+                    @include flexbox(space-between, center);
+                    gap: 20px;
+                    li {
+                        list-style: none;
+                        a {
+                            text-decoration: none;
+                            color: salmon;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
